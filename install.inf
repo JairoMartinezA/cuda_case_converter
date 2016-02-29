@@ -1,0 +1,25 @@
+[info]
+title=Case Converter
+desc=Converts identifiers between several cases (snake_case, camelCase, PascalCase etc)
+type=cudatext-plugin
+subdir=cuda_case_converter
+
+[item1]
+section=commands
+caption=Case Converter\Convert to snake_case
+method=conv_snake
+
+[item2]
+section=commands
+caption=Case Converter\Convert to UPPER_CASE
+method=conv_upper
+
+[item3]
+section=commands
+caption=Case Converter\Convert to camelCase
+method=conv_camel
+
+[item4]
+section=commands
+caption=Case Converter\Convert to PascalCase
+method=conv_pascal
