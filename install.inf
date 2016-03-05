@@ -3,6 +3,7 @@ title=Case Converter
 desc=Converts identifiers between several cases (snake_case, camelCase, PascalCase etc)
 type=cudatext-plugin
 subdir=cuda_case_converter
+homepage=https://github.com/CudaText-addons/cuda_case_converter
 
 [item1]
 section=commands
