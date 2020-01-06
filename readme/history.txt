@@ -1,2 +1,6 @@
+
+2020.01.06
++ add: Improve functionality to manage multiple carets.
+
 1.0.0 (oct 2015)
 init
