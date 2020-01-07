@@ -1,9 +1,10 @@
-Plugin "Case Converter" for CudaText.
-It allows to change case of current word or selected carets between these:
+Plugin for CudaText.
+It allows to change case of current word, or words at several carets, between variants:
 
-    the_snake_case
-    THE_UPPER_CASE
-    theCamelCase
-    ThePascalCase 
+the_snake_case
+THE_UPPER_CASE
+theCamelCase
+ThePascalCase 
 
-Author: Alexey T.
+Author: Alexey Torgashin
+License: MIT
