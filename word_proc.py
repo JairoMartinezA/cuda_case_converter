@@ -3,8 +3,8 @@ import string
 
 chars = string.ascii_letters + string.digits + '_'
 
-def get_word_info():
-    x0, y0, x2, y2 = ed.get_carets()[0]
+def get_word_info(caret):
+    x0, y0, x2, y2 = caret
     text = ed.get_text_line(y0)
     if not text:
         return (x0, y0, 0, '')
