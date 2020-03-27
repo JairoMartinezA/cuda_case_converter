@@ -7,20 +7,65 @@ homepage=https://github.com/CudaText-addons/cuda_case_converter
 
 [item1]
 section=commands
-caption=Case Converter\Convert to snake_case
-method=conv_snake
+caption=&Case Converter\Select case conversion
+method=cases_dialog
 
 [item2]
 section=commands
-caption=Case Converter\Convert to UPPER_CASE
-method=conv_upper
+caption=&Case Converter\-
+hotkey=
+method=_
 
-[item3]
+[item11]
 section=commands
-caption=Case Converter\Convert to camelCase
-method=conv_camel
+caption=&Case Converter\By word: &camelCase
+hotkey=
+method=by_camel_case
 
-[item4]
+[item12]
 section=commands
-caption=Case Converter\Convert to PascalCase
-method=conv_pascal
+caption=&Case Converter\By word: &dot.case
+hotkey=
+method=by_dot_case
+
+[item13]
+section=commands
+caption=&Case Converter\By word: &kebah-case
+hotkey=
+method=by_kebah_case
+
+[item14]
+section=commands
+caption=&Case Converter\By word: &PascalCase
+hotkey=
+method=by_pascal_case
+
+[item15]
+section=commands
+caption=&Case Converter\By word: SC&REAMING_SNAKE_CASE
+hotkey=
+method=by_screaming_snake_case
+
+[item16]
+section=commands
+caption=&Case Converter\By word: &snake_case
+hotkey=
+method=by_snake_case
+
+[item21]
+section=commands
+caption=&Case Converter\-
+hotkey=
+method=_
+
+[item31]
+section=commands
+caption=&Case Converter\By custo&m chars
+hotkey=
+method=by_custom_chars
+
+[item41]
+section=commands
+caption=Case Converter\Config
+method=config_plugin
+menu=o
